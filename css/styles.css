@@ -1,178 +1,175 @@
-:root{
-    --brand-color: #212121
+:root {
+  --brand-color: #212121;
 }
-body{
-    font-family: 'roboto', "sans-serif";
-    color: #212121;
+body {
+  font-family: "roboto", "sans-serif";
+  color: #212121;
 }
 .logo {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .first-webstudio {
-    color: #2196F3;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  }
-  .second-webstudio-header {
-    color: #000000;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  }
-  
-  .logo:focus{
-    color: #2196F3;
-  }
-  .link{
-    color: var(--brand-color);
-    font-family: 'roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-  }
-  .link:hover{
-    color: #2196F3;
-  }
-  
-  .contact-1, .contact-2{
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.second-webstudio-header {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 
-    font-family: 'roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
+.logo:focus {
+  color: #2196f3;
+}
+.link {
+  color: var(--brand-color);
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.link:hover {
+  color: #2196f3;
+}
 
-  }
-  .contact-1{
-    color: #2196F3;
-  }
-  .contact-2{
-    color: #757575;
-  }
-  .header{
-    color: #FFFFFF;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    background: #2F303A;
-  }
-  .main-button{
-    cursor: pointer;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.89;
-    letter-spacing: 0.06em;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
-    border-radius: 4px;
-    border: none;
-  }
-  .header-2{
-    color: var(--brand-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  }
-  .text{
-    color: #757575;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
-  .header-3, .header-4{
-    color: var(--brand-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-  }
-  .name{
-    color: var(--brand-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.89;
-    letter-spacing: 0.03em;
-  }
-  .position{
-    color: #757575;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.89;
-    letter-spacing: 0.03em;
-  }
-  .footer{
-    background: #2F303A;
-  }
-  .second-webstudio-footer {
-    color: #FFFFFF;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  }
-  .address{
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    font-style: normal;
-  }
-  .mail, .phone{
-    color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
-    font-size: 14;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    font-style: normal;
-  }
-  .filter-button{
-    color: var(--brand-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    letter-spacing: 0.03em;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-  }
-  .filter-button:hover{
-    background-color: #2196F3;
-    color: #FFFFFF;
-  }
-  .projects-description h3{
-    color: var(--brand-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-  }
-  .projects-description span{
-    color: #757575;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.86;
-    letter-spacing: 0.03em;
-  }
-  
-
-
-
+.contact-1,
+.contact-2 {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-1 {
+  color: #2196f3;
+}
+.contact-2 {
+  color: #757575;
+}
+.header {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: #2f303a;
+}
+.main-button {
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.89;
+  letter-spacing: 0.06em;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+.header-2 {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.header-3,
+.header-4 {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.name {
+  color: var(--brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.89;
+  letter-spacing: 0.03em;
+}
+.position {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.89;
+  letter-spacing: 0.03em;
+}
+.footer {
+  background: #2f303a;
+}
+.second-webstudio-footer {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.address {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.mail,
+.phone {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.filter-button {
+  color: var(--brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.filter-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.projects-description h3 {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-description span {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+}
