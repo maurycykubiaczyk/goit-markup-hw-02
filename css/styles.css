@@ -1,5 +1,10 @@
 :root {
   --brand-color: #212121;
+  color: #2196f3;
+  color: #2f303a;
+  color: #ffffff;
+  color: #f5f4fa;
+  color: #757575;
 }
 body {
   font-family: "roboto", "sans-serif";
@@ -30,7 +35,7 @@ body {
 .logo:focus {
   color: #2196f3;
 }
-.link {
+.header-link {
   color: var(--brand-color);
   font-family: "roboto", sans-serif;
   font-weight: 500;
@@ -39,24 +44,26 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.link:hover {
+.header-link:hover {
   color: #2196f3;
 }
 
-.contact-1,
-.contact-2 {
+.contact-mail,
+.contact-phone {
   font-family: "roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: #757575;
 }
-.contact-1 {
+
+.contact-mail:hover {
   color: #2196f3;
 }
-.contact-2 {
-  color: #757575;
+.contact-phone:hover {
+  color: #2196f3;
 }
 .header {
   color: #ffffff;
@@ -78,8 +85,9 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  font-family: inherit;
 }
-.header-2 {
+.text-description {
   color: var(--brand-color);
   font-weight: 700;
   font-size: 14px;
@@ -94,22 +102,22 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.header-3,
-.header-4 {
+.header-about,
+.team-header {
   color: var(--brand-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.name {
+.team-name {
   color: var(--brand-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.89;
   letter-spacing: 0.03em;
 }
-.position {
+.team-job {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
@@ -135,8 +143,8 @@ body {
   letter-spacing: 0.03em;
   font-style: normal;
 }
-.mail,
-.phone {
+
+.footer-link {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14;
@@ -154,6 +162,7 @@ body {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  font-family: inherit;
 }
 .filter-button:hover {
   background-color: #2196f3;
